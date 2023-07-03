@@ -31,7 +31,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 67%;
+  flex-basis: 63%;
 }
 .nav__list--primary {
   margin: 0 auto;
@@ -41,9 +41,9 @@ nav {
   margin-left: 1em;
 }
 
-.nav-item--push-right {
+/* .nav-item--push-right {
   margin-left: 1em;
-}
+} */
 
 .nav__list {
   margin: 0;
