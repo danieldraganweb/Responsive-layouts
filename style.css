@@ -33,13 +33,13 @@ nav {
   align-items: center;
   flex-basis: 63%;
 }
-.nav__list--primary {
+/* .nav__list--primary {
   margin: 0 auto;
 }
 
 .nav__list--secondary {
   margin-left: 1em;
-}
+} */
 
 /* .nav-item--push-right {
   margin-left: 1em;
@@ -51,7 +51,7 @@ nav {
   list-style: none;
   display: flex;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
