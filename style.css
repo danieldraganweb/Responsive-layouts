@@ -33,6 +33,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-basis: 63%;
+  gap: 1em;
 }
 
 /* .nav__list--primary {
@@ -237,6 +238,14 @@ footer {
 }
 
 @media screen and (max-width: 1250px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 68%;
+    gap: 1em;
+  }
   .hero {
     display: flex;
     flex-direction: row;
@@ -280,6 +289,17 @@ footer {
   }
 }
 @media screen and (max-width: 1000px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 73%;
+    gap: 1em;
+  }
+  .nav__link {
+    font: 0.9em sans-serif;
+  }
   .hero {
     display: flex;
     flex-direction: column;
@@ -323,6 +343,17 @@ footer {
   }
 }
 @media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    gap: 1em;
+  }
+  .nav__link {
+    font: 0.6em sans-serif;
+  }
   .hero {
     display: flex;
     flex-direction: column;
@@ -367,6 +398,17 @@ footer {
   }
 }
 @media screen and (max-width: 750px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    gap: 1em;
+  }
+  .nav__link {
+    font: 0.5em sans-serif;
+  }
   .hero {
     display: flex;
     flex-direction: row;
@@ -417,6 +459,17 @@ footer {
   }
 }
 @media screen and (max-width: 650px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    gap: 1em;
+  }
+  .nav__link {
+    font: 0.4em sans-serif;
+  }
   .hero {
     display: flex;
     flex-direction: row;
@@ -466,7 +519,91 @@ footer {
     padding: 20px 0;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 570px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    gap: 1em;
+  }
+  .nav__link {
+    font: 0.3em sans-serif;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .hero h1 {
+    font-size: 1.2em;
+  }
+  .hero p {
+    font-size: 0.6em;
+  }
+  .btn {
+    font-size: 0.5em;
+    margin-top: 1em;
+  }
+  .hero__text {
+    margin-right: 10%;
+  }
+  .hero__img {
+    width: 34%;
+  }
+  .row {
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 2em;
+    align-items: center;
+    font-size: small;
+  }
+  .col + .col {
+    margin-left: 30px;
+    align-content: center;
+  }
+  .three-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+  }
+  footer {
+    font-size: 0.5em;
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-basis: 0;
+    gap: 1em;
+    margin: 0 auto;
+  }
+  .nav__link {
+    font: 0.4em sans-serif;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 1em;
+  }
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -554,6 +691,27 @@ footer {
   }
 }
 @media screen and (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-basis: 0;
+    gap: 2em;
+    margin: 0 auto;
+  }
+  .nav__link {
+    font: 0.4em sans-serif;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
   .hero {
     display: flex;
     flex-direction: column;
@@ -641,6 +799,133 @@ footer {
   }
 }
 @media screen and (max-width: 350px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    margin: 0 auto;
+  }
+  .nav__link {
+    font: 0.2em sans-serif;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  img {
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding: 1em;
+  }
+  .hero h1 {
+    font-size: 2em;
+    width: 100%;
+  }
+  .hero p {
+    font-size: 0.7em;
+  }
+  .btn {
+    font-size: 0.5em;
+  }
+  .hero__text {
+    width: 100%;
+  }
+  .hero__img {
+    margin-top: 1em;
+    width: 100%;
+  }
+  .main-wrapper {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .primary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #245953;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #136c72;
+    color: #fff;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 0.75em;
+    margin: 0 auto;
+  }
+  .section-title {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    margin-top: 0 auto;
+    color: #87629a;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 2em;
+    align-items: center;
+    font-size: small;
+  }
+  .col + .col {
+    align-content: center;
+    margin-left: 0%;
+  }
+  .three-col {
+    display: flex;
+  }
+  footer {
+    font-size: 0.4em;
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-basis: 0;
+    margin: 0 auto;
+  }
+  .nav__link {
+    font: 0.2em sans-serif;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
   .hero {
     display: flex;
     flex-direction: column;
