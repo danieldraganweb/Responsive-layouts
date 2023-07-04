@@ -24,7 +24,6 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 0.7em;
 }
 
 nav {
@@ -53,15 +52,16 @@ nav {
   padding: 0;
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  gap: 1em;
 }
 
-.nav__item {
+/* .nav__item {
   margin-right: 1em;
-}
+} */
 
 .nav__link {
   color: #fff;
@@ -492,7 +492,7 @@ footer {
     margin-right: 10%;
   }
   .hero__img {
-    width: 34%;
+    width: 54%;
   }
   .row {
     flex-direction: row;
@@ -553,7 +553,7 @@ footer {
     margin-right: 10%;
   }
   .hero__img {
-    width: 34%;
+    width: 100%;
   }
   .row {
     flex-direction: row;
@@ -914,7 +914,7 @@ footer {
     margin: 0 auto;
   }
   .nav__link {
-    font: 0.2em sans-serif;
+    font: 0.4em sans-serif;
   }
 
   .logo {
