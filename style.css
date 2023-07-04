@@ -24,6 +24,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 0.7em;
 }
 
 nav {
@@ -33,6 +34,7 @@ nav {
   align-items: center;
   flex-basis: 63%;
 }
+
 /* .nav__list--primary {
   margin: 0 auto;
 }
@@ -74,7 +76,8 @@ nav {
 }
 
 .nav__link:hover {
-  opacity: 0.75;
+  color: #38cfd9;
+  border-bottom: #38cfd9 2px solid;
 }
 
 .hero {
@@ -210,7 +213,7 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   color: #23424a;
-  font-weight: 900;
+  font-weight: 500;
   background-color: #38cfd9;
   padding: 0.75em 2em;
   border-radius: 100px;
